@@ -1,9 +1,11 @@
+import { MovieList } from "./components/MovieList";
 import "./App.css";
 
 export const App = () => {
   return (
-    <div>
-      <h2>Movie List</h2>
+    <div className="App">
+      <h1>Movie List App</h1>
+      <MovieList />
     </div>
   );
 };
