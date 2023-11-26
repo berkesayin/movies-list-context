@@ -1,10 +1,11 @@
 import { MovieList } from "./components/MovieList";
+import { Navbar } from "./components/Navbar";
 import "./App.css";
 
 export const App = () => {
   return (
     <div className="App">
-      <h1>Movie List App</h1>
+      <Navbar />
       <MovieList />
     </div>
   );
